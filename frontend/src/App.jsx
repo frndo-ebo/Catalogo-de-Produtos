@@ -1,3 +1,11 @@
+import Contador from "./components/Contador";
+import Busca from "./components/Busca";
+import Footer from "./components/Footer";
+import FormProduto from "./components/FormProduto";
+import ListaProdutos from "./components/ListaProdutos";
+import { useState, useEffect, use } from "react";
+import Header from "./components/Header";
+
 function App() {  
   const [produtos, setProdutos] = useState([]);  
   const [mensagem, setMensagem] = useState("");  

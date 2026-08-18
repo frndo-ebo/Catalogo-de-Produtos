@@ -1,6 +1,6 @@
 function Busca({ valor, aoBuscar }) {  
   return (  
-    <input  
+    <input class="busca-input" 
       type="text"  
       value={valor}  
       onChange={(evento) => aoBuscar(evento.target.value)}  
